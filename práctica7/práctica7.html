@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<body>
+<form>
+	Nombre<input type="text" name="nombre"> <br>
+	Telefono<input type="number" name="telefono"> <br>
+	Email<input type="text" name="Email">
+ <fieldset>
+  	<legend>¿Cómo será su método de pago?</legend>
+  		<input type="radio" name="pago" value="efectivo"> Efectivo <br>
+  		<input type="radio" name="pago" value="Paypal"> Paypal <br>
+  		<input type="radio" name="pago" value="tarjeta"> Tarjeta <br>
+  		<input type="radio" name="pago" value="other"> Otro
+</fieldset>
+<fieldset>
+	<legend>Bebdias</legend>
+		<input type="checkbox" name="bebida" value="tequila"> Tequila <br>
+		<input type="checkbox" name="bebida" value="cerveza"> Cerveza <br>
+		<input type="checkbox" name="bebida" value=rootbeer> Rootbeer <br>
+		<input type="checkbox" name="bebida" value="vodka"> Vodka
+</fieldset>
+	Fecha de Nacimiento <input type="date" name="fechadenacimiento"><br>
+	Sucursal <select name="OS">
+		<option value="default">Seleccione uno</option>
+   		<option value="norte">Norte</option> 
+   		<option value="sur">Sur</option> 
+   		<option value="centro">Centro</option>
+	</select>
+<br>
+Comentarios <br>
+<textarea name="comentarios" rows="10" cols="30"></textarea> <br>
+<button type="button">Enviar</button>
+</form>
+</body>
+</html>
